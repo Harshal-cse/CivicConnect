@@ -1,0 +1,5012 @@
+[
+  {
+    "validationId": "VAL-1789788508943-9528",
+    "userId": "citizen@demo.com",
+    "imageId": "IMG-1789788508935-33ac34ac33fc",
+    "imageHash": "3a7c1aae7e1f510d39534f922765e69b315883f9025cc8974c5c13b84a53916a",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "pothole",
+        "score": 0.96
+      },
+      {
+        "name": "road damage",
+        "score": 0.91
+      },
+      {
+        "name": "asphalt",
+        "score": 0.88
+      },
+      {
+        "name": "crack",
+        "score": 0.85
+      },
+      {
+        "name": "street",
+        "score": 0.82
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 733,
+      "height": 547,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-19T03:28:28.943Z",
+    "expiresAt": "2026-09-19T03:58:28.943Z"
+  },
+  {
+    "validationId": "VAL-1789788450931-8257",
+    "userId": "citizen@demo.com",
+    "imageId": "IMG-1789788450923-884436b464d7",
+    "imageHash": "6b9ccd742fbd633ce0cb4c0387d3bf06e3771a4c550fc1cec46e5695e64e3401",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "unusable",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0,
+    "labels": [],
+    "safeSearchResult": {},
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 518,
+      "height": 348,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock",
+    "providerFeatures": [
+      "quality_inspection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "vision-rules-v1",
+    "reasonCode": "IMAGE_TOO_SMALL",
+    "message": "Photo resolution (518x348) is too small. Minimum required is 640x480.",
+    "suggestion": "Please take a higher resolution photo so the civic issue is clearly visible.",
+    "createdAt": "2026-09-19T03:27:30.931Z",
+    "expiresAt": "2026-09-19T03:57:30.931Z"
+  },
+  {
+    "validationId": "VAL-1789788406920-6710",
+    "userId": "citizen@demo.com",
+    "imageId": "IMG-1789788406911-60630f901b2d",
+    "imageHash": "dd316d5bacbf26d52bae9c9c5f2613f268a5b2535175d177d0da443d734caac5",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "unusable",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0,
+    "labels": [],
+    "safeSearchResult": {},
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 680,
+      "height": 282,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock",
+    "providerFeatures": [
+      "quality_inspection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "vision-rules-v1",
+    "reasonCode": "IMAGE_TOO_SMALL",
+    "message": "Photo resolution (680x282) is too small. Minimum required is 640x480.",
+    "suggestion": "Please take a higher resolution photo so the civic issue is clearly visible.",
+    "createdAt": "2026-09-19T03:26:46.920Z",
+    "expiresAt": "2026-09-19T03:56:46.920Z"
+  },
+  {
+    "validationId": "VAL-1789788343787-4147",
+    "userId": "citizen@demo.com",
+    "imageId": "IMG-1789788343779-a5ca008f5684",
+    "imageHash": "0bc6f4d23ea0875224470f6de8d91212a389965341f8b3477c3a36550dd96c34",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "unusable",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0,
+    "labels": [],
+    "safeSearchResult": {},
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 442,
+      "height": 310,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock",
+    "providerFeatures": [
+      "quality_inspection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "vision-rules-v1",
+    "reasonCode": "IMAGE_TOO_SMALL",
+    "message": "Photo resolution (442x310) is too small. Minimum required is 640x480.",
+    "suggestion": "Please take a higher resolution photo so the civic issue is clearly visible.",
+    "createdAt": "2026-09-19T03:25:43.787Z",
+    "expiresAt": "2026-09-19T03:55:43.787Z"
+  },
+  {
+    "validationId": "VAL-1789788051547-6188",
+    "userId": "citizen@demo.com",
+    "imageId": "IMG-1789788051540-626359d7f7da",
+    "imageHash": "765148fc879b22a5ae330e56453fb21cd5d2261352a8d81a10d7398a7c0f3638",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "pothole",
+        "score": 0.96
+      },
+      {
+        "name": "road damage",
+        "score": 0.91
+      },
+      {
+        "name": "asphalt",
+        "score": 0.88
+      },
+      {
+        "name": "crack",
+        "score": 0.85
+      },
+      {
+        "name": "street",
+        "score": 0.82
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/jpeg",
+      "width": 1600,
+      "height": 1600,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-19T03:20:51.547Z",
+    "expiresAt": "2026-09-19T03:50:51.547Z"
+  },
+  {
+    "validationId": "VAL-1789787955087-1694",
+    "userId": "citizen@demo.com",
+    "imageId": "IMG-1789787955077-e8c8e24dca44",
+    "imageHash": "b3b459d4a68776fbbb2747d00f411ca8159ce39bb9a51c5621b5e906903a5874",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "pothole",
+        "score": 0.96
+      },
+      {
+        "name": "road damage",
+        "score": 0.91
+      },
+      {
+        "name": "asphalt",
+        "score": 0.88
+      },
+      {
+        "name": "crack",
+        "score": 0.85
+      },
+      {
+        "name": "street",
+        "score": 0.82
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 1920,
+      "height": 1080,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-19T03:19:15.087Z",
+    "expiresAt": "2026-09-19T03:49:15.087Z"
+  },
+  {
+    "validationId": "VAL-1789787924549-9526",
+    "userId": "citizen@demo.com",
+    "imageId": "IMG-1789787924519-50b1ab367506",
+    "imageHash": "11e8a8552c7b25b76e499190ccd8f7afc681001ed3e470f2435fb9d7e716c936",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "pothole",
+        "score": 0.96
+      },
+      {
+        "name": "road damage",
+        "score": 0.91
+      },
+      {
+        "name": "asphalt",
+        "score": 0.88
+      },
+      {
+        "name": "crack",
+        "score": 0.85
+      },
+      {
+        "name": "street",
+        "score": 0.82
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 1536,
+      "height": 1024,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-19T03:18:44.550Z",
+    "expiresAt": "2026-09-19T03:48:44.549Z"
+  },
+  {
+    "validationId": "VAL-1789770195203-1464",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789770195198-3ac7b989a301",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "unknown",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0,
+    "labels": [],
+    "safeSearchResult": {},
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "vision-rules-v1",
+    "reasonCode": "VISION_TIMEOUT",
+    "message": "Unable to analyze image at this moment. Please try again shortly.",
+    "suggestion": "Please try again in a few moments.",
+    "createdAt": "2026-09-18T22:23:15.203Z",
+    "expiresAt": "2026-09-18T22:53:15.203Z"
+  },
+  {
+    "validationId": "VAL-1789770195153-4842",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789770195145-6e2f5f5b0eee",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "pothole",
+        "score": 0.96
+      },
+      {
+        "name": "road damage",
+        "score": 0.91
+      },
+      {
+        "name": "asphalt",
+        "score": 0.88
+      },
+      {
+        "name": "crack",
+        "score": 0.85
+      },
+      {
+        "name": "street",
+        "score": 0.82
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-18T22:23:15.154Z",
+    "expiresAt": "2026-09-18T22:53:15.153Z"
+  },
+  {
+    "validationId": "VAL-1789770195093-3691",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789770195086-8f291c107907",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "pothole",
+        "score": 0.96
+      },
+      {
+        "name": "road damage",
+        "score": 0.91
+      },
+      {
+        "name": "asphalt",
+        "score": 0.88
+      },
+      {
+        "name": "crack",
+        "score": 0.85
+      },
+      {
+        "name": "street",
+        "score": 0.82
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-18T22:23:15.093Z",
+    "expiresAt": "2026-09-18T22:53:15.093Z"
+  },
+  {
+    "validationId": "VAL-1789770195045-7503",
+    "userId": "CITIZEN-AARAV",
+    "imageId": "IMG-1789770195038-4844a8b81a1a",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "pothole",
+        "score": 0.96
+      },
+      {
+        "name": "road damage",
+        "score": 0.91
+      },
+      {
+        "name": "asphalt",
+        "score": 0.88
+      },
+      {
+        "name": "crack",
+        "score": 0.85
+      },
+      {
+        "name": "street",
+        "score": 0.82
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-18T22:23:15.045Z",
+    "expiresAt": "2026-09-18T22:53:15.045Z"
+  },
+  {
+    "validationId": "VAL-1789770194992-7138",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789770194985-b41f16c4bb16",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "pothole",
+        "score": 0.96
+      },
+      {
+        "name": "road damage",
+        "score": 0.91
+      },
+      {
+        "name": "asphalt",
+        "score": 0.88
+      },
+      {
+        "name": "crack",
+        "score": 0.85
+      },
+      {
+        "name": "street",
+        "score": 0.82
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-18T22:23:14.992Z",
+    "expiresAt": "2026-09-18T22:53:14.992Z"
+  },
+  {
+    "validationId": "VAL-1789770194919-5788",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789770194910-711d346669fb",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "pothole",
+        "score": 0.96
+      },
+      {
+        "name": "road damage",
+        "score": 0.91
+      },
+      {
+        "name": "asphalt",
+        "score": 0.88
+      },
+      {
+        "name": "crack",
+        "score": 0.85
+      },
+      {
+        "name": "street",
+        "score": 0.82
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-18T22:23:14.919Z",
+    "expiresAt": "2026-09-18T22:53:14.919Z"
+  },
+  {
+    "validationId": "VAL-1789770194843-9513",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789770194837-24590e56c378",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "pothole",
+        "score": 0.96
+      },
+      {
+        "name": "road damage",
+        "score": 0.91
+      },
+      {
+        "name": "asphalt",
+        "score": 0.88
+      },
+      {
+        "name": "crack",
+        "score": 0.85
+      },
+      {
+        "name": "street",
+        "score": 0.82
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-18T22:23:14.843Z",
+    "expiresAt": "2026-09-18T22:22:14.890Z",
+    "updatedAt": "2026-09-18T22:23:14.899Z"
+  },
+  {
+    "validationId": "VAL-1789770194754-1265",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789770194749-0ce8cf85f921",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "inappropriate",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0,
+    "labels": [
+      {
+        "name": "inappropriate image",
+        "score": 0.9
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_LIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_LIKELY",
+      "racy": "VERY_LIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "UNSAFE_CONTENT",
+    "createdAt": "2026-09-18T22:23:14.754Z",
+    "expiresAt": "2026-09-18T22:53:14.754Z"
+  },
+  {
+    "validationId": "VAL-1789770194734-4855",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789770194729-ba57745fa0a9",
+    "imageHash": "c93e2a066c3fab6da4e7395e61c7d7d55e011c4f67ca6ea0ea2d5a78b3d332bc",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "unusable",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0,
+    "labels": [],
+    "safeSearchResult": {},
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 0,
+      "height": 0,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": true
+    },
+    "provider": "mock",
+    "providerFeatures": [
+      "quality_inspection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "vision-rules-v1",
+    "reasonCode": "FILE_CORRUPTED",
+    "message": "Image file appears to be corrupted or incomplete.",
+    "suggestion": "The image file could not be read. Please retake the photo and try again.",
+    "createdAt": "2026-09-18T22:23:14.734Z",
+    "expiresAt": "2026-09-18T22:53:14.734Z"
+  },
+  {
+    "validationId": "VAL-1789770194714-3554",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789770194709-351f96d6e1e1",
+    "imageHash": "bf44e1e13de4f19a05f58b11f26c05c77982b4b8100b68475d19c1790fd3c2cc",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "unusable",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0,
+    "labels": [],
+    "safeSearchResult": {},
+    "imageQuality": {
+      "width": 0,
+      "height": 0,
+      "isBlurry": false,
+      "isDark": false,
+      "isBlank": false,
+      "isCorrupted": true
+    },
+    "provider": "mock",
+    "providerFeatures": [
+      "quality_inspection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "vision-rules-v1",
+    "reasonCode": "UNSUPPORTED_FORMAT",
+    "message": "Unsupported file format. Only JPG, PNG, and WebP photos are accepted.",
+    "suggestion": "Please upload a valid JPG, PNG, or WebP photo.",
+    "createdAt": "2026-09-18T22:23:14.714Z",
+    "expiresAt": "2026-09-18T22:53:14.714Z"
+  },
+  {
+    "validationId": "VAL-1789770194694-3935",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789770194686-a98516704d07",
+    "imageHash": "0b847fbd12f62a1a30d2f599a3fccdcab26621268d37a949245d9bf2cee1c0b8",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "unusable",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0,
+    "labels": [],
+    "safeSearchResult": {},
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": true,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock",
+    "providerFeatures": [
+      "quality_inspection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "vision-rules-v1",
+    "reasonCode": "IMAGE_BLANK",
+    "message": "The photo is completely blank or uniform.",
+    "suggestion": "Please capture a real photo of the civic problem on the street.",
+    "createdAt": "2026-09-18T22:23:14.694Z",
+    "expiresAt": "2026-09-18T22:53:14.694Z"
+  },
+  {
+    "validationId": "VAL-1789770194670-4744",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789770194664-eaf86a2fe58e",
+    "imageHash": "f127cb98478bc315eb19bf940b7526b9de57b8973e611e7b1812aa880b8794e5",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "unusable",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0,
+    "labels": [],
+    "safeSearchResult": {},
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": true,
+      "isBlank": true,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock",
+    "providerFeatures": [
+      "quality_inspection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "vision-rules-v1",
+    "reasonCode": "IMAGE_TOO_DARK",
+    "message": "The photo is too dark. Please upload a brighter photo.",
+    "suggestion": "Please turn on your camera flash or capture the photo in adequate street lighting.",
+    "createdAt": "2026-09-18T22:23:14.670Z",
+    "expiresAt": "2026-09-18T22:53:14.670Z"
+  },
+  {
+    "validationId": "VAL-1789770194630-1644",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789770194624-5118049ea4e3",
+    "imageHash": "fbc387838ad01dda058ef13b9d32cd616c064f466e56fdf7654d8f918118144d",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "unusable",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0,
+    "labels": [],
+    "safeSearchResult": {},
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": true,
+      "isCorrupted": false
+    },
+    "provider": "mock",
+    "providerFeatures": [
+      "quality_inspection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "vision-rules-v1",
+    "reasonCode": "IMAGE_BLURRY",
+    "message": "The photo is too blurry to verify. Please take another photo while holding the phone steady.",
+    "suggestion": "Please hold your device steady and tap to focus on the problem before snapping.",
+    "createdAt": "2026-09-18T22:23:14.630Z",
+    "expiresAt": "2026-09-18T22:53:14.630Z"
+  },
+  {
+    "validationId": "VAL-1789770194581-7215",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789770194576-71a00e7464bf",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "manual_review",
+    "accepted": false,
+    "confidence": 0.68,
+    "labels": [
+      {
+        "name": "road",
+        "score": 0.95
+      },
+      {
+        "name": "asphalt",
+        "score": 0.92
+      },
+      {
+        "name": "highway",
+        "score": 0.88
+      },
+      {
+        "name": "lane",
+        "score": 0.82
+      },
+      {
+        "name": "street",
+        "score": 0.8
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "LOW_CONFIDENCE",
+    "message": "We could not confidently verify this photo automatically. Please upload another clear image.",
+    "suggestion": "Please upload a clear photo of the pothole, crack, or damaged road surface.",
+    "createdAt": "2026-09-18T22:23:14.581Z",
+    "expiresAt": "2026-09-18T22:53:14.581Z"
+  },
+  {
+    "validationId": "VAL-1789770194510-7842",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789770194503-9904f0aa24c8",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "garbage_overflow",
+    "predictedCategory": "garbage_overflow",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "garbage",
+        "score": 0.95
+      },
+      {
+        "name": "waste",
+        "score": 0.92
+      },
+      {
+        "name": "litter",
+        "score": 0.89
+      },
+      {
+        "name": "dumpster",
+        "score": 0.86
+      },
+      {
+        "name": "waste container",
+        "score": 0.81
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-18T22:23:14.510Z",
+    "expiresAt": "2026-09-18T22:53:14.510Z"
+  },
+  {
+    "validationId": "VAL-1789770194463-9399",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789770194457-a3d611d30d66",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "broken_streetlight",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0.1,
+    "labels": [
+      {
+        "name": "street light",
+        "score": 0.94
+      },
+      {
+        "name": "lamp post",
+        "score": 0.9
+      },
+      {
+        "name": "light pole",
+        "score": 0.88
+      },
+      {
+        "name": "utility pole",
+        "score": 0.83
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MISMATCH",
+    "message": "This photo does not appear to show Damaged Roads. It appears to show Broken Streetlights.",
+    "suggestion": "Please upload a clear photo of the pothole, crack, or damaged road surface.",
+    "createdAt": "2026-09-18T22:23:14.463Z",
+    "expiresAt": "2026-09-18T22:53:14.463Z"
+  },
+  {
+    "validationId": "VAL-1789770194412-5198",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789770194406-09fd67606008",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "garbage_overflow",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0.1,
+    "labels": [
+      {
+        "name": "garbage",
+        "score": 0.95
+      },
+      {
+        "name": "waste",
+        "score": 0.92
+      },
+      {
+        "name": "litter",
+        "score": 0.89
+      },
+      {
+        "name": "dumpster",
+        "score": 0.86
+      },
+      {
+        "name": "waste container",
+        "score": 0.81
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MISMATCH",
+    "message": "This photo does not appear to show Damaged Roads. It appears to show Overflowing Garbage.",
+    "suggestion": "Please upload a clear photo of the pothole, crack, or damaged road surface.",
+    "createdAt": "2026-09-18T22:23:14.412Z",
+    "expiresAt": "2026-09-18T22:53:14.412Z"
+  },
+  {
+    "validationId": "VAL-1789770194174-7943",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789770194158-dc0239161ade",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "pothole",
+        "score": 0.96
+      },
+      {
+        "name": "road damage",
+        "score": 0.91
+      },
+      {
+        "name": "asphalt",
+        "score": 0.88
+      },
+      {
+        "name": "crack",
+        "score": 0.85
+      },
+      {
+        "name": "street",
+        "score": 0.82
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-18T22:23:14.174Z",
+    "expiresAt": "2026-09-18T22:53:14.174Z"
+  },
+  {
+    "validationId": "VAL-1789716961355-5876",
+    "userId": "citizen@demo.com",
+    "imageId": "IMG-1789716961342-c9b4be94056e",
+    "imageHash": "bf6b4c60bdae500dcbc0ef81f556c021b74c2b4e65660bc05c58e4776c07e504",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "pothole",
+        "score": 0.96
+      },
+      {
+        "name": "road damage",
+        "score": 0.91
+      },
+      {
+        "name": "asphalt",
+        "score": 0.88
+      },
+      {
+        "name": "crack",
+        "score": 0.85
+      },
+      {
+        "name": "street",
+        "score": 0.82
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 988,
+      "height": 1072,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-18T07:36:01.355Z",
+    "expiresAt": "2026-09-18T08:06:01.355Z"
+  },
+  {
+    "validationId": "VAL-1789716930263-1997",
+    "userId": "citizen@demo.com",
+    "imageId": "IMG-1789716930228-286e909d52ed",
+    "imageHash": "11e8a8552c7b25b76e499190ccd8f7afc681001ed3e470f2435fb9d7e716c936",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "pothole",
+        "score": 0.96
+      },
+      {
+        "name": "road damage",
+        "score": 0.91
+      },
+      {
+        "name": "asphalt",
+        "score": 0.88
+      },
+      {
+        "name": "crack",
+        "score": 0.85
+      },
+      {
+        "name": "street",
+        "score": 0.82
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 1536,
+      "height": 1024,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-18T07:35:30.263Z",
+    "expiresAt": "2026-09-18T08:05:30.263Z"
+  },
+  {
+    "validationId": "VAL-1789714674044-9840",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789714674040-cff3b566cc12",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "unknown",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0,
+    "labels": [],
+    "safeSearchResult": {},
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "vision-rules-v1",
+    "reasonCode": "VISION_TIMEOUT",
+    "message": "Unable to analyze image at this moment. Please try again shortly.",
+    "suggestion": "Please try again in a few moments.",
+    "createdAt": "2026-09-18T06:57:54.044Z",
+    "expiresAt": "2026-09-18T07:27:54.044Z"
+  },
+  {
+    "validationId": "VAL-1789714673996-6004",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789714673992-b20a7f512008",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "pothole",
+        "score": 0.96
+      },
+      {
+        "name": "road damage",
+        "score": 0.91
+      },
+      {
+        "name": "asphalt",
+        "score": 0.88
+      },
+      {
+        "name": "crack",
+        "score": 0.85
+      },
+      {
+        "name": "street",
+        "score": 0.82
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-18T06:57:53.996Z",
+    "expiresAt": "2026-09-18T07:27:53.996Z"
+  },
+  {
+    "validationId": "VAL-1789714673953-8489",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789714673947-eaa711cb4312",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "pothole",
+        "score": 0.96
+      },
+      {
+        "name": "road damage",
+        "score": 0.91
+      },
+      {
+        "name": "asphalt",
+        "score": 0.88
+      },
+      {
+        "name": "crack",
+        "score": 0.85
+      },
+      {
+        "name": "street",
+        "score": 0.82
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-18T06:57:53.953Z",
+    "expiresAt": "2026-09-18T07:27:53.953Z"
+  },
+  {
+    "validationId": "VAL-1789714673908-9758",
+    "userId": "CITIZEN-AARAV",
+    "imageId": "IMG-1789714673899-89e5010ac69e",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "pothole",
+        "score": 0.96
+      },
+      {
+        "name": "road damage",
+        "score": 0.91
+      },
+      {
+        "name": "asphalt",
+        "score": 0.88
+      },
+      {
+        "name": "crack",
+        "score": 0.85
+      },
+      {
+        "name": "street",
+        "score": 0.82
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-18T06:57:53.908Z",
+    "expiresAt": "2026-09-18T07:27:53.908Z"
+  },
+  {
+    "validationId": "VAL-1789714673849-9790",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789714673842-f99a6f7ddcd0",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "pothole",
+        "score": 0.96
+      },
+      {
+        "name": "road damage",
+        "score": 0.91
+      },
+      {
+        "name": "asphalt",
+        "score": 0.88
+      },
+      {
+        "name": "crack",
+        "score": 0.85
+      },
+      {
+        "name": "street",
+        "score": 0.82
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-18T06:57:53.849Z",
+    "expiresAt": "2026-09-18T07:27:53.849Z"
+  },
+  {
+    "validationId": "VAL-1789714673792-7927",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789714673787-58dbdb7a94f9",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "pothole",
+        "score": 0.96
+      },
+      {
+        "name": "road damage",
+        "score": 0.91
+      },
+      {
+        "name": "asphalt",
+        "score": 0.88
+      },
+      {
+        "name": "crack",
+        "score": 0.85
+      },
+      {
+        "name": "street",
+        "score": 0.82
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-18T06:57:53.792Z",
+    "expiresAt": "2026-09-18T07:27:53.792Z"
+  },
+  {
+    "validationId": "VAL-1789714673727-7513",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789714673723-e37ce1f57536",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "pothole",
+        "score": 0.96
+      },
+      {
+        "name": "road damage",
+        "score": 0.91
+      },
+      {
+        "name": "asphalt",
+        "score": 0.88
+      },
+      {
+        "name": "crack",
+        "score": 0.85
+      },
+      {
+        "name": "street",
+        "score": 0.82
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-18T06:57:53.727Z",
+    "expiresAt": "2026-09-18T06:56:53.776Z",
+    "updatedAt": "2026-09-18T06:57:53.779Z"
+  },
+  {
+    "validationId": "VAL-1789714673646-1586",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789714673643-67f188212447",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "inappropriate",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0,
+    "labels": [
+      {
+        "name": "inappropriate image",
+        "score": 0.9
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_LIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_LIKELY",
+      "racy": "VERY_LIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "UNSAFE_CONTENT",
+    "createdAt": "2026-09-18T06:57:53.646Z",
+    "expiresAt": "2026-09-18T07:27:53.646Z"
+  },
+  {
+    "validationId": "VAL-1789714673635-4206",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789714673631-a238abad82a0",
+    "imageHash": "c93e2a066c3fab6da4e7395e61c7d7d55e011c4f67ca6ea0ea2d5a78b3d332bc",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "unusable",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0,
+    "labels": [],
+    "safeSearchResult": {},
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 0,
+      "height": 0,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": true
+    },
+    "provider": "mock",
+    "providerFeatures": [
+      "quality_inspection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "vision-rules-v1",
+    "reasonCode": "FILE_CORRUPTED",
+    "message": "Image file appears to be corrupted or incomplete.",
+    "suggestion": "The image file could not be read. Please retake the photo and try again.",
+    "createdAt": "2026-09-18T06:57:53.635Z",
+    "expiresAt": "2026-09-18T07:27:53.635Z"
+  },
+  {
+    "validationId": "VAL-1789714673623-2484",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789714673620-ecbaaf27ada7",
+    "imageHash": "bf44e1e13de4f19a05f58b11f26c05c77982b4b8100b68475d19c1790fd3c2cc",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "unusable",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0,
+    "labels": [],
+    "safeSearchResult": {},
+    "imageQuality": {
+      "width": 0,
+      "height": 0,
+      "isBlurry": false,
+      "isDark": false,
+      "isBlank": false,
+      "isCorrupted": true
+    },
+    "provider": "mock",
+    "providerFeatures": [
+      "quality_inspection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "vision-rules-v1",
+    "reasonCode": "UNSUPPORTED_FORMAT",
+    "message": "Unsupported file format. Only JPG, PNG, and WebP photos are accepted.",
+    "suggestion": "Please upload a valid JPG, PNG, or WebP photo.",
+    "createdAt": "2026-09-18T06:57:53.623Z",
+    "expiresAt": "2026-09-18T07:27:53.623Z"
+  },
+  {
+    "validationId": "VAL-1789714673610-1089",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789714673606-178877b01935",
+    "imageHash": "0b847fbd12f62a1a30d2f599a3fccdcab26621268d37a949245d9bf2cee1c0b8",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "unusable",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0,
+    "labels": [],
+    "safeSearchResult": {},
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": true,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock",
+    "providerFeatures": [
+      "quality_inspection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "vision-rules-v1",
+    "reasonCode": "IMAGE_BLANK",
+    "message": "The photo is completely blank or uniform.",
+    "suggestion": "Please capture a real photo of the civic problem on the street.",
+    "createdAt": "2026-09-18T06:57:53.610Z",
+    "expiresAt": "2026-09-18T07:27:53.610Z"
+  },
+  {
+    "validationId": "VAL-1789714673596-4478",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789714673593-67f6259f2f11",
+    "imageHash": "f127cb98478bc315eb19bf940b7526b9de57b8973e611e7b1812aa880b8794e5",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "unusable",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0,
+    "labels": [],
+    "safeSearchResult": {},
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": true,
+      "isBlank": true,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock",
+    "providerFeatures": [
+      "quality_inspection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "vision-rules-v1",
+    "reasonCode": "IMAGE_TOO_DARK",
+    "message": "The photo is too dark. Please upload a brighter photo.",
+    "suggestion": "Please turn on your camera flash or capture the photo in adequate street lighting.",
+    "createdAt": "2026-09-18T06:57:53.596Z",
+    "expiresAt": "2026-09-18T07:27:53.596Z"
+  },
+  {
+    "validationId": "VAL-1789714673580-1957",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789714673577-4285843a8593",
+    "imageHash": "fbc387838ad01dda058ef13b9d32cd616c064f466e56fdf7654d8f918118144d",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "unusable",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0,
+    "labels": [],
+    "safeSearchResult": {},
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": true,
+      "isCorrupted": false
+    },
+    "provider": "mock",
+    "providerFeatures": [
+      "quality_inspection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "vision-rules-v1",
+    "reasonCode": "IMAGE_BLURRY",
+    "message": "The photo is too blurry to verify. Please take another photo while holding the phone steady.",
+    "suggestion": "Please hold your device steady and tap to focus on the problem before snapping.",
+    "createdAt": "2026-09-18T06:57:53.580Z",
+    "expiresAt": "2026-09-18T07:27:53.580Z"
+  },
+  {
+    "validationId": "VAL-1789714673530-5026",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789714673526-9938d65c91c5",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "manual_review",
+    "accepted": false,
+    "confidence": 0.68,
+    "labels": [
+      {
+        "name": "road",
+        "score": 0.95
+      },
+      {
+        "name": "asphalt",
+        "score": 0.92
+      },
+      {
+        "name": "highway",
+        "score": 0.88
+      },
+      {
+        "name": "lane",
+        "score": 0.82
+      },
+      {
+        "name": "street",
+        "score": 0.8
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "LOW_CONFIDENCE",
+    "message": "We could not confidently verify this photo automatically. Please upload another clear image.",
+    "suggestion": "Please upload a clear photo of the pothole, crack, or damaged road surface.",
+    "createdAt": "2026-09-18T06:57:53.530Z",
+    "expiresAt": "2026-09-18T07:27:53.530Z"
+  },
+  {
+    "validationId": "VAL-1789714673471-7844",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789714673465-d88abcdfb3d6",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "garbage_overflow",
+    "predictedCategory": "garbage_overflow",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "garbage",
+        "score": 0.95
+      },
+      {
+        "name": "waste",
+        "score": 0.92
+      },
+      {
+        "name": "litter",
+        "score": 0.89
+      },
+      {
+        "name": "dumpster",
+        "score": 0.86
+      },
+      {
+        "name": "waste container",
+        "score": 0.81
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-18T06:57:53.471Z",
+    "expiresAt": "2026-09-18T07:27:53.471Z"
+  },
+  {
+    "validationId": "VAL-1789714673427-5374",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789714673422-c03d1b5bea68",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "broken_streetlight",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0.1,
+    "labels": [
+      {
+        "name": "street light",
+        "score": 0.94
+      },
+      {
+        "name": "lamp post",
+        "score": 0.9
+      },
+      {
+        "name": "light pole",
+        "score": 0.88
+      },
+      {
+        "name": "utility pole",
+        "score": 0.83
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MISMATCH",
+    "message": "This photo does not appear to show Damaged Roads. It appears to show Broken Streetlights.",
+    "suggestion": "Please upload a clear photo of the pothole, crack, or damaged road surface.",
+    "createdAt": "2026-09-18T06:57:53.427Z",
+    "expiresAt": "2026-09-18T07:27:53.427Z"
+  },
+  {
+    "validationId": "VAL-1789714673385-3414",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789714673380-ebf8bb643ea2",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "garbage_overflow",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0.1,
+    "labels": [
+      {
+        "name": "garbage",
+        "score": 0.95
+      },
+      {
+        "name": "waste",
+        "score": 0.92
+      },
+      {
+        "name": "litter",
+        "score": 0.89
+      },
+      {
+        "name": "dumpster",
+        "score": 0.86
+      },
+      {
+        "name": "waste container",
+        "score": 0.81
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MISMATCH",
+    "message": "This photo does not appear to show Damaged Roads. It appears to show Overflowing Garbage.",
+    "suggestion": "Please upload a clear photo of the pothole, crack, or damaged road surface.",
+    "createdAt": "2026-09-18T06:57:53.385Z",
+    "expiresAt": "2026-09-18T07:27:53.385Z"
+  },
+  {
+    "validationId": "VAL-1789714673324-4087",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789714673315-1f8b2bbf2f7b",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "pothole",
+        "score": 0.96
+      },
+      {
+        "name": "road damage",
+        "score": 0.91
+      },
+      {
+        "name": "asphalt",
+        "score": 0.88
+      },
+      {
+        "name": "crack",
+        "score": 0.85
+      },
+      {
+        "name": "street",
+        "score": 0.82
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-18T06:57:53.324Z",
+    "expiresAt": "2026-09-18T07:27:53.324Z"
+  },
+  {
+    "validationId": "VAL-1789714489345-7652",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789714489339-0b8abd7bf4e0",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "unknown",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0,
+    "labels": [],
+    "safeSearchResult": {},
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "vision-rules-v1",
+    "reasonCode": "VISION_TIMEOUT",
+    "message": "Unable to analyze image at this moment. Please try again shortly.",
+    "suggestion": "Please try again in a few moments.",
+    "createdAt": "2026-09-18T06:54:49.345Z",
+    "expiresAt": "2026-09-18T07:24:49.345Z"
+  },
+  {
+    "validationId": "VAL-1789714489296-4604",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789714489293-d0a13284a9b1",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "pothole",
+        "score": 0.96
+      },
+      {
+        "name": "road damage",
+        "score": 0.91
+      },
+      {
+        "name": "asphalt",
+        "score": 0.88
+      },
+      {
+        "name": "crack",
+        "score": 0.85
+      },
+      {
+        "name": "street",
+        "score": 0.82
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-18T06:54:49.296Z",
+    "expiresAt": "2026-09-18T07:24:49.296Z"
+  },
+  {
+    "validationId": "VAL-1789714489255-6803",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789714489249-4e15bea34470",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "pothole",
+        "score": 0.96
+      },
+      {
+        "name": "road damage",
+        "score": 0.91
+      },
+      {
+        "name": "asphalt",
+        "score": 0.88
+      },
+      {
+        "name": "crack",
+        "score": 0.85
+      },
+      {
+        "name": "street",
+        "score": 0.82
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-18T06:54:49.255Z",
+    "expiresAt": "2026-09-18T07:24:49.255Z"
+  },
+  {
+    "validationId": "VAL-1789714489205-4084",
+    "userId": "CITIZEN-AARAV",
+    "imageId": "IMG-1789714489200-fba80b9597a8",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "pothole",
+        "score": 0.96
+      },
+      {
+        "name": "road damage",
+        "score": 0.91
+      },
+      {
+        "name": "asphalt",
+        "score": 0.88
+      },
+      {
+        "name": "crack",
+        "score": 0.85
+      },
+      {
+        "name": "street",
+        "score": 0.82
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-18T06:54:49.205Z",
+    "expiresAt": "2026-09-18T07:24:49.205Z"
+  },
+  {
+    "validationId": "VAL-1789714489163-8418",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789714489157-b397d5c0a3d6",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "pothole",
+        "score": 0.96
+      },
+      {
+        "name": "road damage",
+        "score": 0.91
+      },
+      {
+        "name": "asphalt",
+        "score": 0.88
+      },
+      {
+        "name": "crack",
+        "score": 0.85
+      },
+      {
+        "name": "street",
+        "score": 0.82
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-18T06:54:49.163Z",
+    "expiresAt": "2026-09-18T07:24:49.163Z"
+  },
+  {
+    "validationId": "VAL-1789714489110-7947",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789714489103-8ef1c8a6c377",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "pothole",
+        "score": 0.96
+      },
+      {
+        "name": "road damage",
+        "score": 0.91
+      },
+      {
+        "name": "asphalt",
+        "score": 0.88
+      },
+      {
+        "name": "crack",
+        "score": 0.85
+      },
+      {
+        "name": "street",
+        "score": 0.82
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-18T06:54:49.110Z",
+    "expiresAt": "2026-09-18T07:24:49.110Z"
+  },
+  {
+    "validationId": "VAL-1789714489046-1625",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789714489041-60880a190e8f",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "pothole",
+        "score": 0.96
+      },
+      {
+        "name": "road damage",
+        "score": 0.91
+      },
+      {
+        "name": "asphalt",
+        "score": 0.88
+      },
+      {
+        "name": "crack",
+        "score": 0.85
+      },
+      {
+        "name": "street",
+        "score": 0.82
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-18T06:54:49.047Z",
+    "expiresAt": "2026-09-18T06:53:49.090Z",
+    "updatedAt": "2026-09-18T06:54:49.094Z"
+  },
+  {
+    "validationId": "VAL-1789714488956-9705",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789714488953-923dd1ea13d7",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "inappropriate",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0,
+    "labels": [
+      {
+        "name": "inappropriate image",
+        "score": 0.9
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_LIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_LIKELY",
+      "racy": "VERY_LIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "UNSAFE_CONTENT",
+    "createdAt": "2026-09-18T06:54:48.957Z",
+    "expiresAt": "2026-09-18T07:24:48.957Z"
+  },
+  {
+    "validationId": "VAL-1789714488944-9259",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789714488939-ea96144f3329",
+    "imageHash": "c93e2a066c3fab6da4e7395e61c7d7d55e011c4f67ca6ea0ea2d5a78b3d332bc",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "unusable",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0,
+    "labels": [],
+    "safeSearchResult": {},
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 0,
+      "height": 0,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": true
+    },
+    "provider": "mock",
+    "providerFeatures": [
+      "quality_inspection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "vision-rules-v1",
+    "reasonCode": "FILE_CORRUPTED",
+    "message": "Image file appears to be corrupted or incomplete.",
+    "suggestion": "The image file could not be read. Please retake the photo and try again.",
+    "createdAt": "2026-09-18T06:54:48.944Z",
+    "expiresAt": "2026-09-18T07:24:48.944Z"
+  },
+  {
+    "validationId": "VAL-1789714488932-3712",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789714488928-0f0dc07ec55a",
+    "imageHash": "bf44e1e13de4f19a05f58b11f26c05c77982b4b8100b68475d19c1790fd3c2cc",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "unusable",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0,
+    "labels": [],
+    "safeSearchResult": {},
+    "imageQuality": {
+      "width": 0,
+      "height": 0,
+      "isBlurry": false,
+      "isDark": false,
+      "isBlank": false,
+      "isCorrupted": true
+    },
+    "provider": "mock",
+    "providerFeatures": [
+      "quality_inspection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "vision-rules-v1",
+    "reasonCode": "UNSUPPORTED_FORMAT",
+    "message": "Unsupported file format. Only JPG, PNG, and WebP photos are accepted.",
+    "suggestion": "Please upload a valid JPG, PNG, or WebP photo.",
+    "createdAt": "2026-09-18T06:54:48.932Z",
+    "expiresAt": "2026-09-18T07:24:48.932Z"
+  },
+  {
+    "validationId": "VAL-1789714488918-4690",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789714488914-30d050041576",
+    "imageHash": "0b847fbd12f62a1a30d2f599a3fccdcab26621268d37a949245d9bf2cee1c0b8",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "unusable",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0,
+    "labels": [],
+    "safeSearchResult": {},
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": true,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock",
+    "providerFeatures": [
+      "quality_inspection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "vision-rules-v1",
+    "reasonCode": "IMAGE_BLANK",
+    "message": "The photo is completely blank or uniform.",
+    "suggestion": "Please capture a real photo of the civic problem on the street.",
+    "createdAt": "2026-09-18T06:54:48.918Z",
+    "expiresAt": "2026-09-18T07:24:48.918Z"
+  },
+  {
+    "validationId": "VAL-1789714488903-3765",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789714488898-225a9527b288",
+    "imageHash": "f127cb98478bc315eb19bf940b7526b9de57b8973e611e7b1812aa880b8794e5",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "unusable",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0,
+    "labels": [],
+    "safeSearchResult": {},
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": true,
+      "isBlank": true,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock",
+    "providerFeatures": [
+      "quality_inspection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "vision-rules-v1",
+    "reasonCode": "IMAGE_TOO_DARK",
+    "message": "The photo is too dark. Please upload a brighter photo.",
+    "suggestion": "Please turn on your camera flash or capture the photo in adequate street lighting.",
+    "createdAt": "2026-09-18T06:54:48.903Z",
+    "expiresAt": "2026-09-18T07:24:48.903Z"
+  },
+  {
+    "validationId": "VAL-1789714488886-2123",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789714488881-35e23a62e9ee",
+    "imageHash": "fbc387838ad01dda058ef13b9d32cd616c064f466e56fdf7654d8f918118144d",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "unusable",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0,
+    "labels": [],
+    "safeSearchResult": {},
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": true,
+      "isCorrupted": false
+    },
+    "provider": "mock",
+    "providerFeatures": [
+      "quality_inspection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "vision-rules-v1",
+    "reasonCode": "IMAGE_BLURRY",
+    "message": "The photo is too blurry to verify. Please take another photo while holding the phone steady.",
+    "suggestion": "Please hold your device steady and tap to focus on the problem before snapping.",
+    "createdAt": "2026-09-18T06:54:48.886Z",
+    "expiresAt": "2026-09-18T07:24:48.886Z"
+  },
+  {
+    "validationId": "VAL-1789714488831-4379",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789714488828-73c236070229",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "manual_review",
+    "accepted": false,
+    "confidence": 0.68,
+    "labels": [
+      {
+        "name": "road",
+        "score": 0.95
+      },
+      {
+        "name": "asphalt",
+        "score": 0.92
+      },
+      {
+        "name": "highway",
+        "score": 0.88
+      },
+      {
+        "name": "lane",
+        "score": 0.82
+      },
+      {
+        "name": "street",
+        "score": 0.8
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "LOW_CONFIDENCE",
+    "message": "We could not confidently verify this photo automatically. Please upload another clear image.",
+    "suggestion": "Please upload a clear photo of the pothole, crack, or damaged road surface.",
+    "createdAt": "2026-09-18T06:54:48.831Z",
+    "expiresAt": "2026-09-18T07:24:48.831Z"
+  },
+  {
+    "validationId": "VAL-1789714488779-8734",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789714488770-f93fe0576b50",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "garbage_overflow",
+    "predictedCategory": "garbage_overflow",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "garbage",
+        "score": 0.95
+      },
+      {
+        "name": "waste",
+        "score": 0.92
+      },
+      {
+        "name": "litter",
+        "score": 0.89
+      },
+      {
+        "name": "dumpster",
+        "score": 0.86
+      },
+      {
+        "name": "waste container",
+        "score": 0.81
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-18T06:54:48.779Z",
+    "expiresAt": "2026-09-18T07:24:48.779Z"
+  },
+  {
+    "validationId": "VAL-1789714488733-4098",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789714488728-8de3eaca2878",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "broken_streetlight",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0.1,
+    "labels": [
+      {
+        "name": "street light",
+        "score": 0.94
+      },
+      {
+        "name": "lamp post",
+        "score": 0.9
+      },
+      {
+        "name": "light pole",
+        "score": 0.88
+      },
+      {
+        "name": "utility pole",
+        "score": 0.83
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MISMATCH",
+    "message": "This photo does not appear to show Damaged Roads. It appears to show Broken Streetlights.",
+    "suggestion": "Please upload a clear photo of the pothole, crack, or damaged road surface.",
+    "createdAt": "2026-09-18T06:54:48.733Z",
+    "expiresAt": "2026-09-18T07:24:48.733Z"
+  },
+  {
+    "validationId": "VAL-1789714488686-7031",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789714488682-a5373fc6d895",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "garbage_overflow",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0.1,
+    "labels": [
+      {
+        "name": "garbage",
+        "score": 0.95
+      },
+      {
+        "name": "waste",
+        "score": 0.92
+      },
+      {
+        "name": "litter",
+        "score": 0.89
+      },
+      {
+        "name": "dumpster",
+        "score": 0.86
+      },
+      {
+        "name": "waste container",
+        "score": 0.81
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MISMATCH",
+    "message": "This photo does not appear to show Damaged Roads. It appears to show Overflowing Garbage.",
+    "suggestion": "Please upload a clear photo of the pothole, crack, or damaged road surface.",
+    "createdAt": "2026-09-18T06:54:48.686Z",
+    "expiresAt": "2026-09-18T07:24:48.686Z"
+  },
+  {
+    "validationId": "VAL-1789714488624-1491",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789714488615-ab2825d218d7",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "pothole",
+        "score": 0.96
+      },
+      {
+        "name": "road damage",
+        "score": 0.91
+      },
+      {
+        "name": "asphalt",
+        "score": 0.88
+      },
+      {
+        "name": "crack",
+        "score": 0.85
+      },
+      {
+        "name": "street",
+        "score": 0.82
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-18T06:54:48.624Z",
+    "expiresAt": "2026-09-18T07:24:48.624Z"
+  },
+  {
+    "validationId": "VAL-1789712274862-9484",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789712274857-62ef824dac67",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "unknown",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0,
+    "labels": [],
+    "safeSearchResult": {},
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "vision-rules-v1",
+    "reasonCode": "VISION_TIMEOUT",
+    "message": "Unable to analyze image at this moment. Please try again shortly.",
+    "suggestion": "Please try again in a few moments.",
+    "createdAt": "2026-09-18T06:17:54.862Z",
+    "expiresAt": "2026-09-18T06:47:54.862Z"
+  },
+  {
+    "validationId": "VAL-1789712274822-4576",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789712274816-a3408ec4e019",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "pothole",
+        "score": 0.96
+      },
+      {
+        "name": "road damage",
+        "score": 0.91
+      },
+      {
+        "name": "asphalt",
+        "score": 0.88
+      },
+      {
+        "name": "crack",
+        "score": 0.85
+      },
+      {
+        "name": "street",
+        "score": 0.82
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-18T06:17:54.822Z",
+    "expiresAt": "2026-09-18T06:47:54.822Z"
+  },
+  {
+    "validationId": "VAL-1789712274780-3174",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789712274777-7708841866a6",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "pothole",
+        "score": 0.96
+      },
+      {
+        "name": "road damage",
+        "score": 0.91
+      },
+      {
+        "name": "asphalt",
+        "score": 0.88
+      },
+      {
+        "name": "crack",
+        "score": 0.85
+      },
+      {
+        "name": "street",
+        "score": 0.82
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-18T06:17:54.780Z",
+    "expiresAt": "2026-09-18T06:47:54.780Z"
+  },
+  {
+    "validationId": "VAL-1789712274740-5820",
+    "userId": "CITIZEN-AARAV",
+    "imageId": "IMG-1789712274734-72c1f2762629",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "pothole",
+        "score": 0.96
+      },
+      {
+        "name": "road damage",
+        "score": 0.91
+      },
+      {
+        "name": "asphalt",
+        "score": 0.88
+      },
+      {
+        "name": "crack",
+        "score": 0.85
+      },
+      {
+        "name": "street",
+        "score": 0.82
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-18T06:17:54.740Z",
+    "expiresAt": "2026-09-18T06:47:54.740Z"
+  },
+  {
+    "validationId": "VAL-1789712274696-2080",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789712274693-06e5d01bd42b",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "pothole",
+        "score": 0.96
+      },
+      {
+        "name": "road damage",
+        "score": 0.91
+      },
+      {
+        "name": "asphalt",
+        "score": 0.88
+      },
+      {
+        "name": "crack",
+        "score": 0.85
+      },
+      {
+        "name": "street",
+        "score": 0.82
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-18T06:17:54.696Z",
+    "expiresAt": "2026-09-18T06:47:54.696Z"
+  },
+  {
+    "validationId": "VAL-1789712274659-5523",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789712274629-e3227f63b081",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "pothole",
+        "score": 0.96
+      },
+      {
+        "name": "road damage",
+        "score": 0.91
+      },
+      {
+        "name": "asphalt",
+        "score": 0.88
+      },
+      {
+        "name": "crack",
+        "score": 0.85
+      },
+      {
+        "name": "street",
+        "score": 0.82
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-18T06:17:54.659Z",
+    "expiresAt": "2026-09-18T06:47:54.659Z"
+  },
+  {
+    "validationId": "VAL-1789712274587-7520",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789712274582-536cd452c3e7",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "pothole",
+        "score": 0.96
+      },
+      {
+        "name": "road damage",
+        "score": 0.91
+      },
+      {
+        "name": "asphalt",
+        "score": 0.88
+      },
+      {
+        "name": "crack",
+        "score": 0.85
+      },
+      {
+        "name": "street",
+        "score": 0.82
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-18T06:17:54.587Z",
+    "expiresAt": "2026-09-18T06:16:54.615Z",
+    "updatedAt": "2026-09-18T06:17:54.620Z"
+  },
+  {
+    "validationId": "VAL-1789712274504-3286",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789712274498-e05230c58720",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "inappropriate",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0,
+    "labels": [
+      {
+        "name": "inappropriate image",
+        "score": 0.9
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_LIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_LIKELY",
+      "racy": "VERY_LIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "UNSAFE_CONTENT",
+    "createdAt": "2026-09-18T06:17:54.504Z",
+    "expiresAt": "2026-09-18T06:47:54.504Z"
+  },
+  {
+    "validationId": "VAL-1789712274487-2574",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789712274481-1476e93eeaa1",
+    "imageHash": "c93e2a066c3fab6da4e7395e61c7d7d55e011c4f67ca6ea0ea2d5a78b3d332bc",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "unusable",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0,
+    "labels": [],
+    "safeSearchResult": {},
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 0,
+      "height": 0,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": true
+    },
+    "provider": "mock",
+    "providerFeatures": [
+      "quality_inspection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "vision-rules-v1",
+    "reasonCode": "FILE_CORRUPTED",
+    "message": "Image file appears to be corrupted or incomplete.",
+    "suggestion": "The image file could not be read. Please retake the photo and try again.",
+    "createdAt": "2026-09-18T06:17:54.487Z",
+    "expiresAt": "2026-09-18T06:47:54.487Z"
+  },
+  {
+    "validationId": "VAL-1789712274466-5057",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789712274460-3780df7b2196",
+    "imageHash": "bf44e1e13de4f19a05f58b11f26c05c77982b4b8100b68475d19c1790fd3c2cc",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "unusable",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0,
+    "labels": [],
+    "safeSearchResult": {},
+    "imageQuality": {
+      "width": 0,
+      "height": 0,
+      "isBlurry": false,
+      "isDark": false,
+      "isBlank": false,
+      "isCorrupted": true
+    },
+    "provider": "mock",
+    "providerFeatures": [
+      "quality_inspection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "vision-rules-v1",
+    "reasonCode": "UNSUPPORTED_FORMAT",
+    "message": "Unsupported file format. Only JPG, PNG, and WebP photos are accepted.",
+    "suggestion": "Please upload a valid JPG, PNG, or WebP photo.",
+    "createdAt": "2026-09-18T06:17:54.466Z",
+    "expiresAt": "2026-09-18T06:47:54.466Z"
+  },
+  {
+    "validationId": "VAL-1789712274447-1400",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789712274442-7ea5dd7ab8d3",
+    "imageHash": "0b847fbd12f62a1a30d2f599a3fccdcab26621268d37a949245d9bf2cee1c0b8",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "unusable",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0,
+    "labels": [],
+    "safeSearchResult": {},
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": true,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock",
+    "providerFeatures": [
+      "quality_inspection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "vision-rules-v1",
+    "reasonCode": "IMAGE_BLANK",
+    "message": "The photo is completely blank or uniform.",
+    "suggestion": "Please capture a real photo of the civic problem on the street.",
+    "createdAt": "2026-09-18T06:17:54.447Z",
+    "expiresAt": "2026-09-18T06:47:54.447Z"
+  },
+  {
+    "validationId": "VAL-1789712274431-5276",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789712274428-222c05f8359e",
+    "imageHash": "f127cb98478bc315eb19bf940b7526b9de57b8973e611e7b1812aa880b8794e5",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "unusable",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0,
+    "labels": [],
+    "safeSearchResult": {},
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": true,
+      "isBlank": true,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock",
+    "providerFeatures": [
+      "quality_inspection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "vision-rules-v1",
+    "reasonCode": "IMAGE_TOO_DARK",
+    "message": "The photo is too dark. Please upload a brighter photo.",
+    "suggestion": "Please turn on your camera flash or capture the photo in adequate street lighting.",
+    "createdAt": "2026-09-18T06:17:54.431Z",
+    "expiresAt": "2026-09-18T06:47:54.431Z"
+  },
+  {
+    "validationId": "VAL-1789712274417-6158",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789712274411-36d6f7b9f602",
+    "imageHash": "fbc387838ad01dda058ef13b9d32cd616c064f466e56fdf7654d8f918118144d",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "unusable",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0,
+    "labels": [],
+    "safeSearchResult": {},
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": true,
+      "isCorrupted": false
+    },
+    "provider": "mock",
+    "providerFeatures": [
+      "quality_inspection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "vision-rules-v1",
+    "reasonCode": "IMAGE_BLURRY",
+    "message": "The photo is too blurry to verify. Please take another photo while holding the phone steady.",
+    "suggestion": "Please hold your device steady and tap to focus on the problem before snapping.",
+    "createdAt": "2026-09-18T06:17:54.417Z",
+    "expiresAt": "2026-09-18T06:47:54.417Z"
+  },
+  {
+    "validationId": "VAL-1789712274368-6574",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789712274363-b15cc41e7bd2",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "manual_review",
+    "accepted": false,
+    "confidence": 0.68,
+    "labels": [
+      {
+        "name": "road",
+        "score": 0.95
+      },
+      {
+        "name": "asphalt",
+        "score": 0.92
+      },
+      {
+        "name": "highway",
+        "score": 0.88
+      },
+      {
+        "name": "lane",
+        "score": 0.82
+      },
+      {
+        "name": "street",
+        "score": 0.8
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "LOW_CONFIDENCE",
+    "message": "We could not confidently verify this photo automatically. Please upload another clear image.",
+    "suggestion": "Please upload a clear photo of the pothole, crack, or damaged road surface.",
+    "createdAt": "2026-09-18T06:17:54.368Z",
+    "expiresAt": "2026-09-18T06:47:54.368Z"
+  },
+  {
+    "validationId": "VAL-1789712274299-8080",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789712274294-b4a66aa044c1",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "garbage_overflow",
+    "predictedCategory": "garbage_overflow",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "garbage",
+        "score": 0.95
+      },
+      {
+        "name": "waste",
+        "score": 0.92
+      },
+      {
+        "name": "litter",
+        "score": 0.89
+      },
+      {
+        "name": "dumpster",
+        "score": 0.86
+      },
+      {
+        "name": "waste container",
+        "score": 0.81
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-18T06:17:54.299Z",
+    "expiresAt": "2026-09-18T06:47:54.299Z"
+  },
+  {
+    "validationId": "VAL-1789712274260-6380",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789712274255-3da95807b041",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "broken_streetlight",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0.1,
+    "labels": [
+      {
+        "name": "street light",
+        "score": 0.94
+      },
+      {
+        "name": "lamp post",
+        "score": 0.9
+      },
+      {
+        "name": "light pole",
+        "score": 0.88
+      },
+      {
+        "name": "utility pole",
+        "score": 0.83
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MISMATCH",
+    "message": "This photo does not appear to show Damaged Roads. It appears to show Broken Streetlights.",
+    "suggestion": "Please upload a clear photo of the pothole, crack, or damaged road surface.",
+    "createdAt": "2026-09-18T06:17:54.260Z",
+    "expiresAt": "2026-09-18T06:47:54.260Z"
+  },
+  {
+    "validationId": "VAL-1789712274221-7840",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789712274216-7014c4c148a3",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "garbage_overflow",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0.1,
+    "labels": [
+      {
+        "name": "garbage",
+        "score": 0.95
+      },
+      {
+        "name": "waste",
+        "score": 0.92
+      },
+      {
+        "name": "litter",
+        "score": 0.89
+      },
+      {
+        "name": "dumpster",
+        "score": 0.86
+      },
+      {
+        "name": "waste container",
+        "score": 0.81
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MISMATCH",
+    "message": "This photo does not appear to show Damaged Roads. It appears to show Overflowing Garbage.",
+    "suggestion": "Please upload a clear photo of the pothole, crack, or damaged road surface.",
+    "createdAt": "2026-09-18T06:17:54.221Z",
+    "expiresAt": "2026-09-18T06:47:54.221Z"
+  },
+  {
+    "validationId": "VAL-1789712274008-5870",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789712273996-281d90071339",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "pothole",
+        "score": 0.96
+      },
+      {
+        "name": "road damage",
+        "score": 0.91
+      },
+      {
+        "name": "asphalt",
+        "score": 0.88
+      },
+      {
+        "name": "crack",
+        "score": 0.85
+      },
+      {
+        "name": "street",
+        "score": 0.82
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-18T06:17:54.008Z",
+    "expiresAt": "2026-09-18T06:47:54.008Z"
+  },
+  {
+    "validationId": "VAL-1789711785755-8665",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789711785750-809b541d9ed8",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "unknown",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0,
+    "labels": [],
+    "safeSearchResult": {},
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "vision-rules-v1",
+    "reasonCode": "VISION_TIMEOUT",
+    "message": "Unable to analyze image at this moment. Please try again shortly.",
+    "suggestion": "Please try again in a few moments.",
+    "createdAt": "2026-09-18T06:09:45.755Z",
+    "expiresAt": "2026-09-18T06:39:45.755Z"
+  },
+  {
+    "validationId": "VAL-1789711785708-4907",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789711785704-98d262ff481b",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "pothole",
+        "score": 0.96
+      },
+      {
+        "name": "road damage",
+        "score": 0.91
+      },
+      {
+        "name": "asphalt",
+        "score": 0.88
+      },
+      {
+        "name": "crack",
+        "score": 0.85
+      },
+      {
+        "name": "street",
+        "score": 0.82
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-18T06:09:45.708Z",
+    "expiresAt": "2026-09-18T06:39:45.708Z"
+  },
+  {
+    "validationId": "VAL-1789711785663-2760",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789711785659-4aa3513db214",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "pothole",
+        "score": 0.96
+      },
+      {
+        "name": "road damage",
+        "score": 0.91
+      },
+      {
+        "name": "asphalt",
+        "score": 0.88
+      },
+      {
+        "name": "crack",
+        "score": 0.85
+      },
+      {
+        "name": "street",
+        "score": 0.82
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-18T06:09:45.663Z",
+    "expiresAt": "2026-09-18T06:39:45.663Z"
+  },
+  {
+    "validationId": "VAL-1789711785620-7472",
+    "userId": "CITIZEN-AARAV",
+    "imageId": "IMG-1789711785616-7384c620ff6c",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "pothole",
+        "score": 0.96
+      },
+      {
+        "name": "road damage",
+        "score": 0.91
+      },
+      {
+        "name": "asphalt",
+        "score": 0.88
+      },
+      {
+        "name": "crack",
+        "score": 0.85
+      },
+      {
+        "name": "street",
+        "score": 0.82
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-18T06:09:45.620Z",
+    "expiresAt": "2026-09-18T06:39:45.620Z"
+  },
+  {
+    "validationId": "VAL-1789711785579-5342",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789711785575-2baaa20997fa",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "pothole",
+        "score": 0.96
+      },
+      {
+        "name": "road damage",
+        "score": 0.91
+      },
+      {
+        "name": "asphalt",
+        "score": 0.88
+      },
+      {
+        "name": "crack",
+        "score": 0.85
+      },
+      {
+        "name": "street",
+        "score": 0.82
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-18T06:09:45.579Z",
+    "expiresAt": "2026-09-18T06:39:45.579Z"
+  },
+  {
+    "validationId": "VAL-1789711785539-8459",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789711785534-e0f9b5d6bf23",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "pothole",
+        "score": 0.96
+      },
+      {
+        "name": "road damage",
+        "score": 0.91
+      },
+      {
+        "name": "asphalt",
+        "score": 0.88
+      },
+      {
+        "name": "crack",
+        "score": 0.85
+      },
+      {
+        "name": "street",
+        "score": 0.82
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-18T06:09:45.539Z",
+    "expiresAt": "2026-09-18T06:39:45.539Z"
+  },
+  {
+    "validationId": "VAL-1789711785493-5772",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789711785487-b1c8def0eab3",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "pothole",
+        "score": 0.96
+      },
+      {
+        "name": "road damage",
+        "score": 0.91
+      },
+      {
+        "name": "asphalt",
+        "score": 0.88
+      },
+      {
+        "name": "crack",
+        "score": 0.85
+      },
+      {
+        "name": "street",
+        "score": 0.82
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-18T06:09:45.493Z",
+    "expiresAt": "2026-09-18T06:08:45.527Z",
+    "updatedAt": "2026-09-18T06:09:45.530Z"
+  },
+  {
+    "validationId": "VAL-1789711785401-8834",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789711785396-b179565894aa",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "inappropriate",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0,
+    "labels": [
+      {
+        "name": "inappropriate image",
+        "score": 0.9
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_LIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_LIKELY",
+      "racy": "VERY_LIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "UNSAFE_CONTENT_FLAGGED",
+    "createdAt": "2026-09-18T06:09:45.401Z",
+    "expiresAt": "2026-09-18T06:39:45.401Z"
+  },
+  {
+    "validationId": "VAL-1789711785389-4213",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789711785386-08e03d41e772",
+    "imageHash": "c93e2a066c3fab6da4e7395e61c7d7d55e011c4f67ca6ea0ea2d5a78b3d332bc",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "unusable",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0,
+    "labels": [],
+    "safeSearchResult": {},
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 0,
+      "height": 0,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": true
+    },
+    "provider": "mock",
+    "providerFeatures": [
+      "quality_inspection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "vision-rules-v1",
+    "reasonCode": "FILE_CORRUPTED",
+    "message": "Image file appears to be corrupted or incomplete.",
+    "suggestion": "The image file could not be read. Please retake the photo and try again.",
+    "createdAt": "2026-09-18T06:09:45.389Z",
+    "expiresAt": "2026-09-18T06:39:45.389Z"
+  },
+  {
+    "validationId": "VAL-1789711785377-2390",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789711785374-7e92ae4e8063",
+    "imageHash": "bf44e1e13de4f19a05f58b11f26c05c77982b4b8100b68475d19c1790fd3c2cc",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "unusable",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0,
+    "labels": [],
+    "safeSearchResult": {},
+    "imageQuality": {
+      "width": 0,
+      "height": 0,
+      "isBlurry": false,
+      "isDark": false,
+      "isBlank": false,
+      "isCorrupted": true
+    },
+    "provider": "mock",
+    "providerFeatures": [
+      "quality_inspection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "vision-rules-v1",
+    "reasonCode": "UNSUPPORTED_FORMAT",
+    "message": "Unsupported file format. Only JPG, PNG, and WebP photos are accepted.",
+    "suggestion": "Please upload a valid JPG, PNG, or WebP photo.",
+    "createdAt": "2026-09-18T06:09:45.377Z",
+    "expiresAt": "2026-09-18T06:39:45.377Z"
+  },
+  {
+    "validationId": "VAL-1789711785365-5819",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789711785361-0864d5cc072d",
+    "imageHash": "0b847fbd12f62a1a30d2f599a3fccdcab26621268d37a949245d9bf2cee1c0b8",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "unusable",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0,
+    "labels": [],
+    "safeSearchResult": {},
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": true,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock",
+    "providerFeatures": [
+      "quality_inspection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "vision-rules-v1",
+    "reasonCode": "IMAGE_BLANK",
+    "message": "The photo is completely blank or uniform.",
+    "suggestion": "Please capture a real photo of the civic problem on the street.",
+    "createdAt": "2026-09-18T06:09:45.365Z",
+    "expiresAt": "2026-09-18T06:39:45.365Z"
+  },
+  {
+    "validationId": "VAL-1789711785352-7881",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789711785345-8ab3e9a2976b",
+    "imageHash": "f127cb98478bc315eb19bf940b7526b9de57b8973e611e7b1812aa880b8794e5",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "unusable",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0,
+    "labels": [],
+    "safeSearchResult": {},
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": true,
+      "isBlank": true,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock",
+    "providerFeatures": [
+      "quality_inspection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "vision-rules-v1",
+    "reasonCode": "IMAGE_TOO_DARK",
+    "message": "The photo is too dark. Please upload a brighter photo.",
+    "suggestion": "Please turn on your camera flash or capture the photo in adequate street lighting.",
+    "createdAt": "2026-09-18T06:09:45.352Z",
+    "expiresAt": "2026-09-18T06:39:45.352Z"
+  },
+  {
+    "validationId": "VAL-1789711785337-8250",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789711785333-b91e04c8e621",
+    "imageHash": "fbc387838ad01dda058ef13b9d32cd616c064f466e56fdf7654d8f918118144d",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "unusable",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0,
+    "labels": [],
+    "safeSearchResult": {},
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": true,
+      "isCorrupted": false
+    },
+    "provider": "mock",
+    "providerFeatures": [
+      "quality_inspection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "vision-rules-v1",
+    "reasonCode": "IMAGE_BLURRY",
+    "message": "The photo is too blurry to verify. Please take another photo while holding the phone steady.",
+    "suggestion": "Please hold your device steady and tap to focus on the problem before snapping.",
+    "createdAt": "2026-09-18T06:09:45.337Z",
+    "expiresAt": "2026-09-18T06:39:45.337Z"
+  },
+  {
+    "validationId": "VAL-1789711785290-1079",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789711785284-e0f6f159e08d",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "road",
+        "score": 0.95
+      },
+      {
+        "name": "asphalt",
+        "score": 0.92
+      },
+      {
+        "name": "highway",
+        "score": 0.88
+      },
+      {
+        "name": "lane",
+        "score": 0.82
+      },
+      {
+        "name": "street",
+        "score": 0.8
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-18T06:09:45.290Z",
+    "expiresAt": "2026-09-18T06:39:45.290Z"
+  },
+  {
+    "validationId": "VAL-1789711785238-9805",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789711785233-605da9ba6ceb",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "garbage_overflow",
+    "predictedCategory": "garbage_overflow",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "garbage",
+        "score": 0.95
+      },
+      {
+        "name": "waste",
+        "score": 0.92
+      },
+      {
+        "name": "litter",
+        "score": 0.89
+      },
+      {
+        "name": "dumpster",
+        "score": 0.86
+      },
+      {
+        "name": "waste container",
+        "score": 0.81
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-18T06:09:45.238Z",
+    "expiresAt": "2026-09-18T06:39:45.238Z"
+  },
+  {
+    "validationId": "VAL-1789711785195-9226",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789711785190-b95b9f334f22",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "broken_streetlight",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0.1,
+    "labels": [
+      {
+        "name": "street light",
+        "score": 0.94
+      },
+      {
+        "name": "lamp post",
+        "score": 0.9
+      },
+      {
+        "name": "light pole",
+        "score": 0.88
+      },
+      {
+        "name": "utility pole",
+        "score": 0.83
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MISMATCH",
+    "message": "This photo does not appear to show Damaged Roads. It appears to show Broken Streetlights.",
+    "suggestion": "Please upload a clear photo of the pothole, crack, or damaged road surface.",
+    "createdAt": "2026-09-18T06:09:45.195Z",
+    "expiresAt": "2026-09-18T06:39:45.195Z"
+  },
+  {
+    "validationId": "VAL-1789711785152-3094",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789711785145-644e08f0b240",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "garbage_overflow",
+    "status": "rejected",
+    "accepted": false,
+    "confidence": 0.1,
+    "labels": [
+      {
+        "name": "garbage",
+        "score": 0.95
+      },
+      {
+        "name": "waste",
+        "score": 0.92
+      },
+      {
+        "name": "litter",
+        "score": 0.89
+      },
+      {
+        "name": "dumpster",
+        "score": 0.86
+      },
+      {
+        "name": "waste container",
+        "score": 0.81
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MISMATCH",
+    "message": "This photo does not appear to show Damaged Roads. It appears to show Overflowing Garbage.",
+    "suggestion": "Please upload a clear photo of the pothole, crack, or damaged road surface.",
+    "createdAt": "2026-09-18T06:09:45.152Z",
+    "expiresAt": "2026-09-18T06:39:45.152Z"
+  },
+  {
+    "validationId": "VAL-1789711785105-6663",
+    "userId": "CITIZEN-001",
+    "imageId": "IMG-1789711785094-d146ad6ee466",
+    "imageHash": "1769ba1ae0633b375fe59eae7381e0429680117f9c769d49062c83601a89d0e7",
+    "selectedCategory": "road_damage",
+    "predictedCategory": "road_damage",
+    "status": "approved",
+    "accepted": true,
+    "confidence": 0.98,
+    "labels": [
+      {
+        "name": "pothole",
+        "score": 0.96
+      },
+      {
+        "name": "road damage",
+        "score": 0.91
+      },
+      {
+        "name": "asphalt",
+        "score": 0.88
+      },
+      {
+        "name": "crack",
+        "score": 0.85
+      },
+      {
+        "name": "street",
+        "score": 0.82
+      }
+    ],
+    "safeSearchResult": {
+      "adult": "VERY_UNLIKELY",
+      "spoof": "VERY_UNLIKELY",
+      "medical": "VERY_UNLIKELY",
+      "violence": "VERY_UNLIKELY",
+      "racy": "VERY_UNLIKELY"
+    },
+    "imageQuality": {
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "isDark": false,
+      "isBlank": false,
+      "isBlurry": false,
+      "isCorrupted": false
+    },
+    "provider": "mock_vision",
+    "providerFeatures": [
+      "label_detection",
+      "safe_search_detection"
+    ],
+    "rulesVersion": "civicconnect-rules-v1",
+    "modelVersion": "mock-v1",
+    "reasonCode": "CATEGORY_MATCH",
+    "message": "Image verified. You can submit the complaint.",
+    "suggestion": null,
+    "createdAt": "2026-09-18T06:09:45.105Z",
+    "expiresAt": "2026-09-18T06:39:45.105Z"
+  }
+]

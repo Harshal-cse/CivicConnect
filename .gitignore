@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Environment Variables & Private Credentials
+.env
+.env.local
+keys/
+*.pem
+*.key
+service-account*.json
+
+# Storage & Temporary Files (Keep folders tracked with .gitkeep)
+storage/temp_images/*
+!storage/temp_images/.gitkeep
+
+# Logs & Runtime
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# System & OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE & Editor caches
+.vscode/
+.idea/

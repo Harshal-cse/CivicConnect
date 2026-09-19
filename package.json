@@ -1,0 +1,24 @@
+{
+  "name": "civicconnect",
+  "version": "1.0.0",
+  "description": "CivicConnect - Citizen-First Civic Problem Reporting Platform for Kopargaon, Maharashtra",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node tests/ai_image_validation.test.js",
+    "migrate:supabase": "node scripts/migrate-to-supabase.js"
+  },
+  "keywords": [
+    "civic-tech",
+    "smart-city",
+    "ai-vision",
+    "kopargaon",
+    "supabase",
+    "government"
+  ],
+  "author": "CivicConnect Team",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.1"
+  }
+}

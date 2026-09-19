@@ -1,0 +1,458 @@
+[
+  {
+    "id": "CC-455423",
+    "title": "Overflowing dump bin near market",
+    "category": "garbage_overflow",
+    "categoryDisplay": "garbage_overflow",
+    "description": "Bins overflowing for two days",
+    "location": "Vegetable Market, Kopargaon",
+    "coordinates": {
+      "lat": 19.887,
+      "lng": 74.4795
+    },
+    "ward": "Ward 1 - Shivaji Chowk",
+    "city": "Kopargaon",
+    "reportedByUserId": "CITIZEN-001",
+    "reportedByName": "Demo Citizen",
+    "reportedAt": "2026-09-18T22:23:14.564Z",
+    "dateFormatted": "Sep 19, 2026",
+    "status": "Submitted",
+    "priority": "High",
+    "supports": 1,
+    "validationId": "VAL-1789770194510-7842",
+    "image": "/api/storage/complaints/CC-455423_IMG-1789770194503-9904f0aa24c8.png",
+    "slaRemaining": "SLA Deadline: 2 days remaining",
+    "isOverdue": false,
+    "timeline": [
+      {
+        "title": "Complaint Submitted",
+        "time": "Just now",
+        "status": "completed",
+        "note": "Verified with AI Vision & Geotag evidence."
+      },
+      {
+        "title": "Reviewed by Nagarsevak",
+        "time": "Pending",
+        "status": "upcoming",
+        "note": "Assigned to Ward Corporator triage."
+      },
+      {
+        "title": "Approved & Department Dispatched",
+        "time": "Pending",
+        "status": "upcoming",
+        "note": "Pending municipal department dispatch."
+      },
+      {
+        "title": "Work Started",
+        "time": "Pending",
+        "status": "upcoming",
+        "note": "Contractor crew repair work."
+      },
+      {
+        "title": "Resolved & Citizen Verified",
+        "time": "Pending",
+        "status": "upcoming",
+        "note": "After-repair photo proof pending citizen sign-off."
+      }
+    ]
+  },
+  {
+    "id": "CC-423072",
+    "title": "Deep pothole on Shivaji Road",
+    "category": "road_damage",
+    "categoryDisplay": "road_damage",
+    "description": "2ft wide pothole near market square",
+    "location": "Shivaji Chowk, Kopargaon",
+    "coordinates": {
+      "lat": 19.8864,
+      "lng": 74.4789
+    },
+    "ward": "Ward 1 - Shivaji Chowk",
+    "city": "Kopargaon",
+    "reportedByUserId": "CITIZEN-001",
+    "reportedByName": "Demo Citizen",
+    "reportedAt": "2026-09-18T22:23:14.249Z",
+    "dateFormatted": "Sep 19, 2026",
+    "status": "Submitted",
+    "priority": "High",
+    "supports": 1,
+    "validationId": "VAL-1789770194174-7943",
+    "image": "/api/storage/complaints/CC-423072_IMG-1789770194158-dc0239161ade.png",
+    "slaRemaining": "SLA Deadline: 2 days remaining",
+    "isOverdue": false,
+    "timeline": [
+      {
+        "title": "Complaint Submitted",
+        "time": "Just now",
+        "status": "completed",
+        "note": "Verified with AI Vision & Geotag evidence."
+      },
+      {
+        "title": "Reviewed by Nagarsevak",
+        "time": "Pending",
+        "status": "upcoming",
+        "note": "Assigned to Ward Corporator triage."
+      },
+      {
+        "title": "Approved & Department Dispatched",
+        "time": "Pending",
+        "status": "upcoming",
+        "note": "Pending municipal department dispatch."
+      },
+      {
+        "title": "Work Started",
+        "time": "Pending",
+        "status": "upcoming",
+        "note": "Contractor crew repair work."
+      },
+      {
+        "title": "Resolved & Citizen Verified",
+        "time": "Pending",
+        "status": "upcoming",
+        "note": "After-repair photo proof pending citizen sign-off."
+      }
+    ]
+  },
+  {
+    "id": "CC-351191",
+    "title": "Overflowing dump bin near market",
+    "category": "garbage_overflow",
+    "categoryDisplay": "garbage_overflow",
+    "description": "Bins overflowing for two days",
+    "location": "Vegetable Market, Kopargaon",
+    "coordinates": {
+      "lat": 19.887,
+      "lng": 74.4795
+    },
+    "ward": "Ward 1 - Shivaji Chowk",
+    "city": "Kopargaon",
+    "reportedByUserId": "CITIZEN-001",
+    "reportedByName": "Demo Citizen",
+    "reportedAt": "2026-09-18T06:57:53.516Z",
+    "dateFormatted": "Sep 18, 2026",
+    "status": "Submitted",
+    "priority": "High",
+    "supports": 1,
+    "validationId": "VAL-1789714673471-7844",
+    "image": "/api/storage/complaints/CC-351191_IMG-1789714673465-d88abcdfb3d6.png",
+    "slaRemaining": "SLA Deadline: 2 days remaining",
+    "isOverdue": false,
+    "timeline": [
+      {
+        "title": "Complaint Submitted",
+        "time": "Just now",
+        "status": "completed",
+        "note": "Verified with AI Vision & Geotag evidence."
+      },
+      {
+        "title": "Reviewed by Nagarsevak",
+        "time": "Pending",
+        "status": "upcoming",
+        "note": "Assigned to Ward Corporator triage."
+      },
+      {
+        "title": "Approved & Department Dispatched",
+        "time": "Pending",
+        "status": "upcoming",
+        "note": "Pending municipal department dispatch."
+      },
+      {
+        "title": "Work Started",
+        "time": "Pending",
+        "status": "upcoming",
+        "note": "Contractor crew repair work."
+      },
+      {
+        "title": "Resolved & Citizen Verified",
+        "time": "Pending",
+        "status": "upcoming",
+        "note": "After-repair photo proof pending citizen sign-off."
+      }
+    ]
+  },
+  {
+    "id": "CC-336379",
+    "title": "Deep pothole on Shivaji Road",
+    "category": "road_damage",
+    "categoryDisplay": "road_damage",
+    "description": "2ft wide pothole near market square",
+    "location": "Shivaji Chowk, Kopargaon",
+    "coordinates": {
+      "lat": 19.8864,
+      "lng": 74.4789
+    },
+    "ward": "Ward 1 - Shivaji Chowk",
+    "city": "Kopargaon",
+    "reportedByUserId": "CITIZEN-001",
+    "reportedByName": "Demo Citizen",
+    "reportedAt": "2026-09-18T06:57:53.372Z",
+    "dateFormatted": "Sep 18, 2026",
+    "status": "Submitted",
+    "priority": "High",
+    "supports": 1,
+    "validationId": "VAL-1789714673324-4087",
+    "image": "/api/storage/complaints/CC-336379_IMG-1789714673315-1f8b2bbf2f7b.png",
+    "slaRemaining": "SLA Deadline: 2 days remaining",
+    "isOverdue": false,
+    "timeline": [
+      {
+        "title": "Complaint Submitted",
+        "time": "Just now",
+        "status": "completed",
+        "note": "Verified with AI Vision & Geotag evidence."
+      },
+      {
+        "title": "Reviewed by Nagarsevak",
+        "time": "Pending",
+        "status": "upcoming",
+        "note": "Assigned to Ward Corporator triage."
+      },
+      {
+        "title": "Approved & Department Dispatched",
+        "time": "Pending",
+        "status": "upcoming",
+        "note": "Pending municipal department dispatch."
+      },
+      {
+        "title": "Work Started",
+        "time": "Pending",
+        "status": "upcoming",
+        "note": "Contractor crew repair work."
+      },
+      {
+        "title": "Resolved & Citizen Verified",
+        "time": "Pending",
+        "status": "upcoming",
+        "note": "After-repair photo proof pending citizen sign-off."
+      }
+    ]
+  },
+  {
+    "id": "CC-881284",
+    "title": "Overflowing dump bin near market",
+    "category": "garbage_overflow",
+    "categoryDisplay": "garbage_overflow",
+    "description": "Bins overflowing for two days",
+    "location": "Vegetable Market, Kopargaon",
+    "coordinates": {
+      "lat": 19.887,
+      "lng": 74.4795
+    },
+    "ward": "Ward 1 - Shivaji Chowk",
+    "city": "Kopargaon",
+    "reportedByUserId": "CITIZEN-001",
+    "reportedByName": "Demo Citizen",
+    "reportedAt": "2026-09-18T06:54:48.822Z",
+    "dateFormatted": "Sep 18, 2026",
+    "status": "Submitted",
+    "priority": "High",
+    "supports": 1,
+    "validationId": "VAL-1789714488779-8734",
+    "image": "/api/storage/complaints/CC-881284_IMG-1789714488770-f93fe0576b50.png",
+    "slaRemaining": "SLA Deadline: 2 days remaining",
+    "isOverdue": false,
+    "timeline": [
+      {
+        "title": "Complaint Submitted",
+        "time": "Just now",
+        "status": "completed",
+        "note": "Verified with AI Vision & Geotag evidence."
+      },
+      {
+        "title": "Reviewed by Nagarsevak",
+        "time": "Pending",
+        "status": "upcoming",
+        "note": "Assigned to Ward Corporator triage."
+      },
+      {
+        "title": "Approved & Department Dispatched",
+        "time": "Pending",
+        "status": "upcoming",
+        "note": "Pending municipal department dispatch."
+      },
+      {
+        "title": "Work Started",
+        "time": "Pending",
+        "status": "upcoming",
+        "note": "Contractor crew repair work."
+      },
+      {
+        "title": "Resolved & Citizen Verified",
+        "time": "Pending",
+        "status": "upcoming",
+        "note": "After-repair photo proof pending citizen sign-off."
+      }
+    ]
+  },
+  {
+    "id": "CC-866727",
+    "title": "Deep pothole on Shivaji Road",
+    "category": "road_damage",
+    "categoryDisplay": "road_damage",
+    "description": "2ft wide pothole near market square",
+    "location": "Shivaji Chowk, Kopargaon",
+    "coordinates": {
+      "lat": 19.8864,
+      "lng": 74.4789
+    },
+    "ward": "Ward 1 - Shivaji Chowk",
+    "city": "Kopargaon",
+    "reportedByUserId": "CITIZEN-001",
+    "reportedByName": "Demo Citizen",
+    "reportedAt": "2026-09-18T06:54:48.677Z",
+    "dateFormatted": "Sep 18, 2026",
+    "status": "Submitted",
+    "priority": "High",
+    "supports": 1,
+    "validationId": "VAL-1789714488624-1491",
+    "image": "/api/storage/complaints/CC-866727_IMG-1789714488615-ab2825d218d7.png",
+    "slaRemaining": "SLA Deadline: 2 days remaining",
+    "isOverdue": false,
+    "timeline": [
+      {
+        "title": "Complaint Submitted",
+        "time": "Just now",
+        "status": "completed",
+        "note": "Verified with AI Vision & Geotag evidence."
+      },
+      {
+        "title": "Reviewed by Nagarsevak",
+        "time": "Pending",
+        "status": "upcoming",
+        "note": "Assigned to Ward Corporator triage."
+      },
+      {
+        "title": "Approved & Department Dispatched",
+        "time": "Pending",
+        "status": "upcoming",
+        "note": "Pending municipal department dispatch."
+      },
+      {
+        "title": "Work Started",
+        "time": "Pending",
+        "status": "upcoming",
+        "note": "Contractor crew repair work."
+      },
+      {
+        "title": "Resolved & Citizen Verified",
+        "time": "Pending",
+        "status": "upcoming",
+        "note": "After-repair photo proof pending citizen sign-off."
+      }
+    ]
+  },
+  {
+    "id": "CC-434559",
+    "title": "Overflowing dump bin near market",
+    "category": "garbage_overflow",
+    "categoryDisplay": "garbage_overflow",
+    "description": "Bins overflowing for two days",
+    "location": "Vegetable Market, Kopargaon",
+    "coordinates": {
+      "lat": 19.887,
+      "lng": 74.4795
+    },
+    "ward": "Ward 1 - Shivaji Chowk",
+    "city": "Kopargaon",
+    "reportedByUserId": "CITIZEN-001",
+    "reportedByName": "Demo Citizen",
+    "reportedAt": "2026-09-18T06:17:54.351Z",
+    "dateFormatted": "Sep 18, 2026",
+    "status": "Submitted",
+    "priority": "High",
+    "supports": 1,
+    "validationId": "VAL-1789712274299-8080",
+    "image": "/api/storage/complaints/CC-434559_IMG-1789712274294-b4a66aa044c1.png",
+    "slaRemaining": "SLA Deadline: 2 days remaining",
+    "isOverdue": false,
+    "timeline": [
+      {
+        "title": "Complaint Submitted",
+        "time": "Just now",
+        "status": "completed",
+        "note": "Verified with AI Vision & Geotag evidence."
+      },
+      {
+        "title": "Reviewed by Nagarsevak",
+        "time": "Pending",
+        "status": "upcoming",
+        "note": "Assigned to Ward Corporator triage."
+      },
+      {
+        "title": "Approved & Department Dispatched",
+        "time": "Pending",
+        "status": "upcoming",
+        "note": "Pending municipal department dispatch."
+      },
+      {
+        "title": "Work Started",
+        "time": "Pending",
+        "status": "upcoming",
+        "note": "Contractor crew repair work."
+      },
+      {
+        "title": "Resolved & Citizen Verified",
+        "time": "Pending",
+        "status": "upcoming",
+        "note": "After-repair photo proof pending citizen sign-off."
+      }
+    ]
+  },
+  {
+    "id": "CC-404487",
+    "title": "Deep pothole on Shivaji Road",
+    "category": "road_damage",
+    "categoryDisplay": "road_damage",
+    "description": "2ft wide pothole near market square",
+    "location": "Shivaji Chowk, Kopargaon",
+    "coordinates": {
+      "lat": 19.8864,
+      "lng": 74.4789
+    },
+    "ward": "Ward 1 - Shivaji Chowk",
+    "city": "Kopargaon",
+    "reportedByUserId": "CITIZEN-001",
+    "reportedByName": "Demo Citizen",
+    "reportedAt": "2026-09-18T06:17:54.073Z",
+    "dateFormatted": "Sep 18, 2026",
+    "status": "Submitted",
+    "priority": "High",
+    "supports": 1,
+    "validationId": "VAL-1789712274008-5870",
+    "image": "/api/storage/complaints/CC-404487_IMG-1789712273996-281d90071339.png",
+    "slaRemaining": "SLA Deadline: 2 days remaining",
+    "isOverdue": false,
+    "timeline": [
+      {
+        "title": "Complaint Submitted",
+        "time": "Just now",
+        "status": "completed",
+        "note": "Verified with AI Vision & Geotag evidence."
+      },
+      {
+        "title": "Reviewed by Nagarsevak",
+        "time": "Pending",
+        "status": "upcoming",
+        "note": "Assigned to Ward Corporator triage."
+      },
+      {
+        "title": "Approved & Department Dispatched",
+        "time": "Pending",
+        "status": "upcoming",
+        "note": "Pending municipal department dispatch."
+      },
+      {
+        "title": "Work Started",
+        "time": "Pending",
+        "status": "upcoming",
+        "note": "Contractor crew repair work."
+      },
+      {
+        "title": "Resolved & Citizen Verified",
+        "time": "Pending",
+        "status": "upcoming",
+        "note": "After-repair photo proof pending citizen sign-off."
+      }
+    ]
+  }
+]
